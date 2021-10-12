@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Tecnologias utilizadas neste boilerplate
+
+- NextJs;
+- TypeScript;
+- Eslint;
+- EditorConfig;
+- Prettier;
+- Git Hooks com Husky;
+- Jest;
+- React Testing Libray;
+- Styled Components;
+
+
 ## Getting Started
 
 First, run the development server:

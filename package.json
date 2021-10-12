@@ -10,8 +10,12 @@
     "prepare": "husky install"
   },
 
-
-  "lint-staged": { "*.{js,css,md,ts,tsx}": [ "prettier --write", "yarn lint --fix" ] },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix"
+    ],
+    "*.{js,css,md,ts,tsx}": "eslint --cache --fix"
+  },
 
   "dependencies": {
     "next": "11.1.2",

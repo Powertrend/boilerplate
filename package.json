@@ -11,7 +11,7 @@
   },
 
 
-  "lint-staged": { "*.{js,css,md,ts,tsx}": [ "prettier --write" ] },
+  "lint-staged": { "*.{js,css,md,ts,tsx}": [ "prettier --write", "yarn lint --fix" ] },
 
   "dependencies": {
     "next": "11.1.2",
